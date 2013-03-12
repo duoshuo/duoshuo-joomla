@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+	<name>Duoshuo for Joomla!</name>
+	<author>duoshuo.com</author>
+	<authorEmail>xiaowu@duoshuo.com</authorEmail>
+	<authorUrl>www.duoshuo.com</authorUrl>
+	<copyright>Copyright (c) 2013 duoshuo.com All rights reserved.</copyright>
+	<creationDate>March 6th, 2013</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>0.1</version>
+	<description>DUOSHUO_DISCRIPTION</description>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/plugins/content/duoshuo/duoshuo/includes/elements">
+				<field name="duoshuoSubDomain" type="text" default="" label="DUOSHUO_YOUR_DUOSHUO_SUBDOMAIN" description="DUOSHUO_SET_THE_SUBDOMAIN_TO_WHAT_YOU_REGISTERED_WITH_DUOSHUO_WITHOUT_DUOSHUOCOM" />
+				<field name="selectedCategories" type="categories" default="" label="DUOSHUO_SELECT_CATEGORIES_TO_RENDER_THE_PLUGIN" description="" />
+				<field name="selectedMenus" type="menus" default="" label="DUOSHUO_SELECT_MENU_ITEMS_TO_RENDER_THE_PLUGIN" description="" />
+				<field name="duoshuoListingCounter" type="radio" default="1" label="DUOSHUO_DISPLAY_A_COMMENTS_COUNTERANCHOR_LINK_IN_LISTINGS" description="">
+					<option value="0">DUOSHUO_NO</option>
+					<option value="1">DUOSHUO_YES</option>
+				</field>
+				<field name="duoshuoArticleCounter" type="radio" default="1" label="DUOSHUO_DISPLAY_A_COMMENTS_COUNTERANCHOR_LINK_IN_ARTICLE_VIEW" description="">
+					<option value="0">DUOSHUO_NO</option>
+					<option value="1">DUOSHUO_YES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename plugin="duoshuo">duoshuo.php</filename>
+		<folder>duoshuo</folder>
+	</files>
+</install>

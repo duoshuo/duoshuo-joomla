@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>Duoshuo Social Comments</name>
+	<author>Duoshuo.com</author>
+	<authorEmail>xiaowu@duoshuo.com</authorEmail>
+	<authorUrl>www.duoshuo.com</authorUrl>
+	<copyright>Copyright (c) 2013 Duoshuo.com All rights reserved.</copyright>
+	<creationDate>March 6th, 2013</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>0.1</version>
+	<description>Duoshuo Comments for Joomla!</description>
+	<installfile>install.duoshuo.php</installfile>
+	<uninstallfile>uninstall.duoshuo.php</uninstallfile>
+	<scriptfile>script.duoshuo.php</scriptfile>
+	<updateservers>
+		<server type="extension" priority="1" name="Duoshuo Social Comments">http://duoshuo.com/updates/duoshuo.xml</server>
+	</updateservers>
+	<administration>		
+	<languages>
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_duoshuo.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_duoshuo.menu.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_duoshuo.sys.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.plg_content_duoshuo.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.plg_system_duoshuo.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_duoshuo.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_duoshuo.menu.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_duoshuo.sys.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_content_duoshuo.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_duoshuo.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_duoshuo.sys.ini</language>
+	</languages>
+	</administration>
+	<!--
+	<modules>
+		<module module="duoshuo" client="site" />
+	</modules>
+	-->
+	<plugins>
+		<plugin plugin="duoshuo" group="content" />
+		<plugin plugin="duoshuo" group="system" />
+	</plugins>
+</extension>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>System - Duoshuo for Joomla!</name>
+	<author>duoshuo.com</author>
+	<authorEmail>xiaowu@duoshuo.com</authorEmail>
+	<authorUrl>www.duoshuo.com</authorUrl>
+	<copyright>Copyright (c) 2013 Duoshuo.com All rights reserved.</copyright>
+	<creationDate>March 6th, 2013</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>0.1</version>
+	<description>DUOSHUO_SYSTEM_PLUGIN_DESC</description>
+	<params />
+	<config>
+		<fields />
+	</config>
+	<files>
+		<filename plugin="duoshuo">duoshuo.php</filename>
+	</files>
+</install>
