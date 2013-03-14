@@ -12,4 +12,3 @@ Email:xiaowu@duoshuo.com
 1. 在<http://duoshuo.com/create-site/>创建站点  
 2. 选择对应合适的joomla版本进行安装  
 3. 在插件后台设置多说二级域名
-
